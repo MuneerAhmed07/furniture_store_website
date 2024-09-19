@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- custom CSS file Link -->
+     <link rel="stylesheet" href="admin_style.css">
+</head>
+<body>
+
+    <main class="main" id="main">
+        <div class="nav_container">
+            <nav class="navbar">
+                <ul class="nav_list">
+                    <li class="nav_link"><a href="dashboard.html">All Product</a></li>
+                    <li class="nav_link"><a href="new_product.html">Add New Product</a></li>
+                </ul>
+                <div class="button">
+                    <a href="login.html">Login</a>
+                </div>
+            </nav>
+        </div>
+        <div class="table_container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Image</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Size</th>
+                        <th>Description</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="center">1</td>
+                        <td class="center"><img src="../Assests/Images/chair-1.png" alt="Product Image" class="img-thumbnail"></td>
+                        <td>Sample Product</td>
+                        <td>$19.99</td>
+                        <td>XL</td>
+                        <td class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, sunt!</td>
+                        <td><a href="edit.html" class="button edit">Edit</a></td>
+                        <td><a href="#" class="button delete">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    
+</body>
+</html>
